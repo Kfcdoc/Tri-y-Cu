@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuádruplos y Triplos</title>
+  <link rel="stylesheet" href="public/css/main.css">
+</head>
+<body>
+  <main class="tarjeta">
+    <h1>Cuádruplos y Triplos</h1>
+    
+
+    <input id="expresion" type="text" placeholder="Ingresa una expresión aritmética" />
+
+    <div class="botones">
+      <button id="btnCalcular">Calcular</button>
+      <button id="btnLimpiar" class="secundario">Limpiar</button>
+    </div>
+
+    <div id="alerta" class="alerta oculto"></div>
+
+    <section id="resultados" class="oculto">
+      <h2>Cuádruplos</h2>
+      <div id="cuadruplos"></div>
+
+      <h2>Triplos</h2>
+      <div id="triplos"></div>
+
+      <h2>Resultado</h2>
+      <p id="resultado" class="resultado"></p>
+    </section>
+  </main>
+
+  <script type="module" src="controller/controller.js"></script>
+</body>
+</html>

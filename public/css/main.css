@@ -1,0 +1,73 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px 15px;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1e1b4b, #4c1d95);
+  color: #1f2937;
+}
+
+.tarjeta {
+  width: 100%;
+  max-width: 650px;
+  height: fit-content;
+  background: #fff;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+h1 { color: #4c1d95; text-align: center; }
+h2 { margin: 20px 0 8px; font-size: 1.1rem; color: #6d28d9; }
+.subtitulo { text-align: center; color: #6b7280; margin-bottom: 20px; }
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: 2px solid #c4b5fd;
+  border-radius: 8px;
+  outline: none;
+}
+input:focus { border-color: #7c3aed; }
+
+.botones { display: flex; gap: 10px; margin-top: 12px; }
+
+button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  background: #7c3aed;
+}
+button:hover { background: #6d28d9; }
+button.secundario { background: #9ca3af; }
+button.secundario:hover { background: #6b7280; }
+
+.alerta {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #fee2e2;
+  color: #b91c1c;
+  text-align: center;
+}
+
+table { width: 100%; border-collapse: collapse; text-align: center; }
+th { background: #ede9fe; color: #4c1d95; }
+th, td { padding: 8px; border: 1px solid #ddd6fe; }
+
+.resultado {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  color: #059669;
+}
+
+.oculto { display: none; }
